@@ -8,7 +8,7 @@ import base64
 public_key, private_key = rsa.newkeys(1024)
 public_partner = None
 
-IP = "192.168.1.110"
+IP = ""
 
 choice = input("Do you want to host (1) or to connect (2)?")
 
